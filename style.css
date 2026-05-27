@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#f8f9fa;
+    padding: 20px;  
+    font-size: large;
+    color: #212529;
+}
+
+h1 {
+    color: #007bff;
+}
+
+h2{
+    color: #198754;
+}
+
+.Melissa {                   
+   flex: 1;
+   padding: 20px;
+   border: 5px solid;
+   border-radius: 5px;
+   border-color: rgb(225, 225, 225);
+   background-color: #ffffff;
+   text-align: center;
+   width: 562px;
+}
+
+.helena {
+   flex: 1;
+   padding: 20px;
+   border: 5px solid;
+   border-radius: 5px;
+   border-color: rgb(225, 225, 225);
+   background-color: #ffffff;
+   text-align: center;
+   width: 562px;
+    
+}
+
+.direita {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.curriculos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 290px;
+    width: 100%;
+    max-width: 2000;
+    margin: auto;
+   
+
+}
